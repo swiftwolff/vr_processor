@@ -1,6 +1,7 @@
 Vr::Application.routes.draw do
 
-  post "/send_audio" =>"send_to_google_controller#create"
+  # post "/send_audio" =>"sendtogoogle#create"
+  post "/send_audio" =>"googlevr#create"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
